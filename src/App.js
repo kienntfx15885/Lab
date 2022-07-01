@@ -1,9 +1,10 @@
 import Menu from './components/MenuComponent'
+import { DISHES } from './shared/dishes';
 
 function App() {
   return (
     <div className="App">
-        <Menu />
+        <Menu dishes={DISHES}/>
     </div>
   );
 }
